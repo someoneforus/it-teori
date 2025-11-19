@@ -4,20 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IT teori</title>
+    <style>
+        .teori-container{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            text-align: center;
+            gap: 40px;
+        }
+        
+        .teori-container > *{
+            border: 2px solid red;
+            min-height: 40vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .teori-container a{
+            text-decoration: none;
+            color: black;
+            background-color: aquamarine;
+            padding: 50px;
+        }
+
+    </style>
 </head>
 <body>
     <h1>IT teori</h1>
     <div class="teori-container">
         <div class="binaere-tall">
-            <h2>Binære tall</h2>
+            <a href="/binaer.html">Binære tall</a>
         </div>
 
         <div class="bilder-lyd">
-            <h2>Bilder og lyd</h2>
+            <a href="/bilde-lyd.html">Bilder og lyd</a>
         </div>
 
         <div class="pc-komp">
-            <h2>PC-komponenter</h2>
+            <a href="/pc-komp.html">PC-komponenter</a>
         </div>
     </div>
 </body>
