@@ -8,6 +8,10 @@
     color: antiquewhite;
 }
 
+.komp{
+    height: 50vh;
+}
+
 .gpu {
     background-image: url(./bilder/gpu.jpg);
     background-repeat: no-repeat;
