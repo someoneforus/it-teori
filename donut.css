@@ -5,41 +5,10 @@
     align-items: center;
     gap: 15px;
     padding: 10px;
-    color: antiquewhite;
+
 }
 
 .komp{
     height: 50vh;
 }
 
-.gpu {
-    background-image: url(./bilder/gpu.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    background-size: cover;
-}
-
-.cpu {
-    background-image: url(./bilder/cpu.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    background-size: cover;
-}
-
-.ram {
-    background-image: url(./bilder//ram.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    background-size: cover;
-}
-
-.hard-disk {
-    background-image: url(./bilder/hard-disk.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    background-size: cover;
-}
