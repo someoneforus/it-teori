@@ -8,3 +8,13 @@ img{
     max-width: 100%;
     display: block;
 }
+
+.tilbake{
+    padding: 20px;
+}
+.tilbake > a{
+    padding: 5px;
+   text-decoration: none;
+   color: black;
+   background-color: lightcoral;
+}
