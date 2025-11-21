@@ -15,9 +15,12 @@ body{
 
 .tilbake{
     padding: 20px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
 }
 .tilbake > a{
-    padding: 5px;
+    padding: 10px;
    text-decoration: none;
    color: black;
    background-color: lightcoral;
