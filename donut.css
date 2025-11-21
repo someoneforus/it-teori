@@ -7,6 +7,12 @@
     padding: 20px;
 }
 
+.pc-tittel{
+    display: flex;
+    justify-content: center;
+
+}
+
 .komp img{
     width: 45vw;
 }
