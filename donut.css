@@ -1,14 +1,19 @@
 .container-pc {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr 1fr;
     justify-content: center;
     align-items: center;
     gap: 15px;
-    padding: 10px;
-    padding: ;
+    padding: 20px;
+}
+
+.komp img{
+    width: 45vw;
 }
 
 .komp{
-    height: 50vh;
-}
+    border-radius: 15px;
+    padding: 10px;
 
+    background-color: antiquewhite;
+}
